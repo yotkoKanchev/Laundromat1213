@@ -16,6 +16,7 @@
 title: Обществена Пералня 1213
 email: peralnq1213@gmail.com
 description: ОбщественаПералня 1213 предлага пране и сушене на индивидуално пране, хотелско бельо, ресторантски покривки, работно облекло при изключително атрактивни условия според вашите потребности, по предварително уточнен график или при моментна заявка. Услугата се извършва за срок до 24 часа.
+destination: docs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: peralnq1213
@@ -38,3 +39,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - docs
