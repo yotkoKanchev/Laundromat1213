@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{site.title}}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
 </head>
 
@@ -23,11 +24,14 @@
                     {% for page in site.pages %}
                     {% if page.title %}
                     <li>
-                        <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+                        <a href="{{ site.baseurl }}{{ page.url }}">
+                            {{if page.icon }}<i class="fas {{ page.icon }}"></i>{{ endif }}
+                            {{ page.title }}</a>
                     </li>
                     {% endif %}
                     {% endfor %}
                 </ul>
+
             </nav>
         </header>
 
