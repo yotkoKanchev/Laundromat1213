@@ -6,44 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{site.title}}</title>
-    <link rel="stylesheet" href="/css/site.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
 </head>
 
 <body>
+    <div class="site">
+        <header class="site-header">
+            {% if page.home == true %}
+            <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+            {% else %}
+            <p class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></p>
+            {% endif %}
 
-    <header class="site-header">
-        <h1 class="site-title"><a href="/">{{site.title}}</a></h1>
+            <nav class="site-nav">
+                <ul>
+                    {% for page in site.pages %}
+                    {% if page.title %}
+                    <li>
+                        <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </nav>
+        </header>
 
-        <nav>
-            <ul>
-                {% for page in site.pages %}
-                {% if page.title %}
-                <li>
-                    <a href="{{ page.url }}">{{ page.title }}</a>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-        </nav>
-    </header>
+        <main class="site-main">
+            {% if page.title %}
+            <h1>{{page.title}}</h1>
+            {% endif %}
 
-    <main class="site-main">
-        {% if page.title %}
-        <h1>{{page.title}}</h1>
-        {% endif %}
+            {{content}}
+        </main>
 
-        {{content}}
-    </main>
+        <aside class="site-sidebar">
 
-    <aside class="site-sidebar">
+        </aside>
 
-    </aside>
-
-    <footer class="site-footer">
-        <h6>{{site.title}}</h6>
-        <p>All rights Reserved &copy;</p>
-    </footer>
-
+        <footer class="site-footer">
+            <!-- <h6>{{site.title}}</h6> -->
+            <p>All rights Reserved &copy; {{ site.title }}</p>
+        </footer>
+    </div>
 </body>
 
 </html>
