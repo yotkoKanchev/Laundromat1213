@@ -1,0 +1,20 @@
+---
+layout: main
+title: Blog
+permalink: /blog/
+---
+
+<section>
+    <header>
+        <h2>{{ page.title }}</h2>
+    </header>
+    <div class="content">
+        <ul>
+            {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">{{ site.baseurl }}{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
