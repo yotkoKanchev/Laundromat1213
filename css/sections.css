@@ -1,0 +1,32 @@
+.section {
+    padding: 2em;
+    text-align: center;
+}
+
+.section header h1,
+.section header h2,
+.section header h3 {
+    margin: 0;
+}
+
+.section.section-headings{
+    font-size: 1.2em;
+    font-family: Merriweather, serif;
+}
+.section.section-check {
+    /* background: #FFF; */
+    font-size: 1.2em;
+    padding: 2em;
+    background-color: rgb(36, 148, 211);
+}
+
+.section.section-check header a{
+    color: #FFF;
+    
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(36, 148, 211);
+    font-size: 0.7em;
+    opacity: 0.5;
+  }
