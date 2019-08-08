@@ -10,18 +10,25 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
 </head>
 
-<body>
+<body class="site-body">
     <div class="site">
         <header class="site-header">
-            {% if page.home == true %}
+            <!-- {% if page.home == true %}
             <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
             {% else %}
             <p class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></p>
-            {% endif %}
+            {% endif %} -->
+            <a href="{{ site.baseurl }}/">
+                <div class="site-branding">
+                    <p class="site-title">Обществена Пералня 1213</p>
+                    <p class="site-description">Експерти в прането от 2003 година</p>
+                </div>
+            </a>
+            
 
             <nav class="site-nav">
                 <ul>
-                    {% for page in site.pages %}
+                    <!-- {% for page in site.pages %} -->
                     {% if page.title %}
                     <li>
                         <a href="{{ site.baseurl }}{{ page.url }}">
@@ -29,7 +36,7 @@
                             {{ page.title }}</a>
                     </li>
                     {% endif %}
-                    {% endfor %}
+                    <!-- {% endfor %} -->
                 </ul>
 
             </nav>

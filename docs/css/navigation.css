@@ -13,14 +13,17 @@
 }
 
 .site-nav a{
+    font-size: 0.8em;
     display: block;
     padding: 0.5em 1em;
-    border-radius: 0.3em;
+    border-bottom-right-radius: 1em;
+    border-top-left-radius: 1em;
+    /* border-radius: 0.3em; */
     background: #EEE;
 }
 
 .site-nav a:hover{
-    background: var(--color-link-default);
+    background: var(--color-body-default);
     color: var(--color-body-bgrd);
 }
 
