@@ -1,5 +1,5 @@
 table {
-    width: 65vw;
+    width: 75vw;
 }
 
 table, td, th, tr {
@@ -30,9 +30,15 @@ th {
     text-align: left;
 }
 
+.section-prices p{
+    text-align: left;
+    opacity: 0.7;
+    font-size: 0.7em;
+}
+
 thead tr th:first-child,
 tbody tr td:first-child {
-    width: 55vw;
+    width: 65vw;
 }
 
 tr:hover{
