@@ -18,6 +18,8 @@
     font-size: 1.2em;
     padding: 2em;
     background-color: rgb(36, 148, 211);
+    border-bottom-right-radius: 2em;
+    border-top-left-radius: 2em;
 }
 
 .section.section-check header a{
