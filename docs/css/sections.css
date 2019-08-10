@@ -1,0 +1,58 @@
+.section {
+    padding: 2em;
+    text-align: center;
+}
+
+.section header h1,
+.section header h2,
+.section header h3 {
+    margin: 0;
+}
+
+.section.section-headings{
+    font-size: 1.2em;
+    font-family: Merriweather, serif;
+}
+.section.section-check {
+    /* background: #FFF; */
+    font-size: 1.2em;
+    padding: 2em;
+    background-color: rgb(36, 148, 211);
+    border-bottom-right-radius: 2em;
+    border-top-left-radius: 2em;
+}
+
+.section.section-check header a{
+    color: #FFF;
+    
+}
+
+::-webkit-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(36, 148, 211);
+    font-size: 0.7em;
+    opacity: 0.5;
+  }
+
+::-moz-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(36, 148, 211);
+    font-size: 0.7em;
+    opacity: 0.5;
+  }
+
+:-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(36, 148, 211);
+    font-size: 0.7em;
+    opacity: 0.5;
+  }
+
+::-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(36, 148, 211);
+    font-size: 0.7em;
+    opacity: 0.5;
+  }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(36, 148, 211);
+    font-size: 0.7em;
+    opacity: 0.5;
+  }
