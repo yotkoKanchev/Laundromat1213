@@ -1,5 +1,5 @@
 table {
-    width: 75vw;
+    max-width: 52em;
 }
 
 table, td, th, tr {
@@ -38,28 +38,10 @@ th {
 
 thead tr th:first-child,
 tbody tr td:first-child {
-    width: 65vw;
+    max-width: 44em;
 }
 
 tr:hover{
     background: rgb(36, 148, 211);
     color: #FFF;
 }
-
-
-/* table {
-    border-bottom-right-radius: 2em;
-    border-top-left-radius: 2em;
-    border-collapse: collapse;
-}
-
-th ,tr, td {
-    border: 1px solid ;
-    border-color: rgb(36, 148, 211);
-    border-spacing: 0;
-}
-
-td:hover {
-    background: rgb(36, 148, 211);
-    color: #FFF;
-} */
