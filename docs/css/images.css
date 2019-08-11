@@ -1,0 +1,22 @@
+.media img {
+    width: 20em;
+    height: auto;
+    margin-left: 2em;
+}
+
+
+@media (min-width: 700px){
+    .media {
+        float: right;
+    }   
+    
+    .cleaner {
+        clear: both;
+    }
+}
+
+@media (max-width: 400px){
+    .media {
+        display: none;
+    }
+}

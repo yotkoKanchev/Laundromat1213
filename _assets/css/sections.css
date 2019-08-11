@@ -29,8 +29,12 @@
 .section li {
     text-align: left;
 }
+
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(36, 148, 211);
     font-size: 0.7em;
     opacity: 0.5;
-  }
+}
+
+
+

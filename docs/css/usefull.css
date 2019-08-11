@@ -1,0 +1,34 @@
+@media (min-width: 900px) {
+    .grid-table {
+        font-size: 0.8em;
+        display: grid;
+        grid-template-columns: repeat(32, 1fr);
+        grid-template-rows: repeat(60, 1fr)
+        /* grid-gap: 1em; */
+    }
+    
+    .laundry {
+        grid-column: 1 / span 15;
+        grid-row: 1 / span 22;
+    }
+    
+    .centr {
+        grid-column: 16 / span 15;
+        grid-row: 1 / span 19;
+
+    }
+    
+    .chem {
+        grid-column: 1 / span 18;
+        grid-row: 22 / span 25;
+
+    }
+    
+    .dry {
+        grid-column: 19 / span 11;
+        grid-row: 19 / span 20;
+
+        grid-row: 
+    }
+}
+
