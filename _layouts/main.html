@@ -25,19 +25,21 @@
                     <p class="site-description">Експерти в прането от 2003 година</p>
                 </div>
             </a>
-            
+
 
             <nav class="site-nav">
                 <ul>
-                    <!-- {% for page in site.pages %} -->
-                    {% if page.title %}
-                    <li>
-                        <a href="{{ site.baseurl }}{{ page.url }}">
-                            <i class="fas {{ page.icon }}"></i>
-                            {{ page.title }}</a>
+                    {% assign nav = site.pages | sort:"order" %}
+                    {% for item in nav %}
+                    {% if item.title %}
+                    <li {% if item.url == page.url %} class="selected" {% endif %}>
+                        <a href="{{ site.baseurl }}{{ item.url }}">
+                            <i class="fas {{ item.icon }}"></i>
+                            {{ item.title }}
+                        </a>
                     </li>
                     {% endif %}
-                    <!-- {% endfor %} -->
+                    {% endfor %}
                 </ul>
 
             </nav>

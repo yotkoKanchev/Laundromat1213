@@ -27,6 +27,7 @@
     background: #EEE;
 }
 
+.site-nav li.selected > a,
 .site-nav a:hover{
     background: var(--color-body-default);
     color: var(--color-body-bgrd);
