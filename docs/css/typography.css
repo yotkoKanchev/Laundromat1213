@@ -59,7 +59,7 @@ ul, ol {
 
 ul ul, ol ul, ul ol, ol ol {
     padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
 }
 
 ol > li > ol > li {
