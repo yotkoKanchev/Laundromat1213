@@ -36,10 +36,23 @@ th {
     font-size: 0.7em;
 }
 
-thead tr th:first-child,
-tbody tr td:first-child {
+.section-prices thead tr th:first-child,
+.section-prices tbody tr td:first-child {
     max-width: 44em;
 }
+
+.section-usefull thead tr th:first-child,
+.section-usefull tbody tr td:first-child {
+    max-width: 6em;
+}
+
+.section-usefull img {
+    /* padding-top: 0.3em; */
+    width: 1.5em;
+    height: auto;
+    padding-top: 0.3em;
+}
+
 
 tr:hover{
     background: rgb(36, 148, 211);

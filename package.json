@@ -1,5 +1,5 @@
 {
-  "name": "Landromat1213",
+  "name": "landromat1213",
   "version": "1.0.0",
   "description": "Landoromat1213 web-site",
   "main": "gulpfile.js",
@@ -15,10 +15,7 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
+  "homepage": "https://github.com/yotkoKanchev/Laundromat1213#readme",
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "child_process": "^1.0.2",
@@ -27,5 +24,9 @@
     "gulp-exec": "^3.0.2",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.12.0"
+  },
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/yotkoKanchev/Laundromat1213/issues"
   }
 }
