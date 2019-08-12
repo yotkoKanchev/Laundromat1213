@@ -13,6 +13,7 @@
 
 <body class="site-body">
     <div class="site">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <header class="site-header">
             <!-- {% if page.home == true %}
             <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
@@ -25,7 +26,11 @@
                     <p class="site-description">Експерти в прането от 2003 година</p>
                 </div>
             </a>
-
+            
+            <label for="nav-toggle" class="nav-toggle-button">
+                <span class="open"><i class="fas fa-bars"></i></span>
+                <span class="close">Close</span>
+            </label>
 
             <nav class="site-nav">
                 <ul>

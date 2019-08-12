@@ -4,17 +4,20 @@
 }
 
 .site-nav li {
+    margin: 0 auto;
     display: block;
     list-style: none outside;
     padding: 0 0.5em;
 }
 
-.site-nav li:last-child {
-    padding-right: 0;
-}
-
-.site-nav li:first-child {
-    padding-left: 0;
+@media (min-width: 901px){
+    .site-nav li:last-child {
+        padding-right: 0;
+    }
+    
+    .site-nav li:first-child {
+        padding-left: 0;
+    }
 }
 
 .site-nav a{
@@ -36,4 +39,68 @@
 .site-nav a i.fas:before {
     /* color: #000; */
     margin-right: 0.5em;
+}
+
+.nav-toggle {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;    
+}
+
+.nav-toggle-button {
+    display: none;
+    margin-left: auto;
+}
+
+/* Phones */
+@media (max-width: 900px){
+    .nav-toggle-button {
+        display: block;
+    }
+    .nav-toggle-button .close {
+        display: none;
+    }
+
+    .site-nav {
+        display: none;
+    }
+
+    .site-nav > ul {
+        display: block;
+    }
+
+    .site-nav > ul > li {
+        width: 50%;
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 0.2em;
+    }
+
+    .site-nav > ul > li a {
+        text-align: center;
+        /* padding: 1em; */
+    }
+
+    .nav-toggle + .site-header {
+        display: block;
+    }
+    
+    .nav-toggle:checked + .site-header .site-nav {
+        display: block;
+    }
+
+    .nav-toggle:checked + .site-header .nav-toggle-button .open {
+        display: none;
+    }
+
+    .nav-toggle:checked + .site-header .nav-toggle-button .close {
+        display: block;
+    }
+
+    .nav-toggle-button {
+        position: fixed;
+        top: 2.5em;
+        right: 3em;
+    }
+
 }
