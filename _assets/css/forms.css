@@ -6,6 +6,8 @@ form .field {
     align-items: center;
 }
 
+form button,
+form textarea,
 form input {
     border: 2px solid transparent;
     background: #FFF;
@@ -21,6 +23,9 @@ form input {
     opacity: 0.5;
   }
 
+/* form button:hover, */
+form textarea:hover,
+form textarea:focus,
 form input:focus,
 form input:hover {
     background: rgb(141, 216, 248);
@@ -34,6 +39,7 @@ form input[type="text"] ::placeholder{
     color: #FFF;
 }
 
+/* form button[type="submit"], */
 form input[type="submit"] {
     font-weight: bold;
 }

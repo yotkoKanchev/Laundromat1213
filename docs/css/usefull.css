@@ -3,7 +3,7 @@
         font-size: 0.8em;
         display: grid;
         grid-template-columns: repeat(32, 1fr);
-        grid-template-rows: repeat(60, 1fr)
+        grid-template-rows: repeat(40, 1fr)
         /* grid-gap: 1em; */
     }
     
@@ -20,15 +20,31 @@
     
     .chem {
         grid-column: 1 / span 18;
-        grid-row: 22 / span 25;
+        grid-row: 24 / span 19;
 
     }
     
     .dry {
         grid-column: 19 / span 11;
-        grid-row: 19 / span 20;
-
-        grid-row: 
+        grid-row: 21 / span 25;
     }
+}
+
+@media (max-width: 899px){
+
+    .grid-table table{
+        margin: 0 auto;
+    }
+}
+
+.section-usefull li {
+    border: 1px solid var(--color-body-default);
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+}
+
+.centred {
+    text-align: center;
 }
 
