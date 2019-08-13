@@ -1,5 +1,5 @@
 form .field {
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -32,8 +32,10 @@ form input:hover {
     color: #FFF;
 }
 
-form input[type="text"] {
-    margin-right: 1em;
+@media (min-width: 900px){
+    form input[type="text"] {
+        margin-right: 1em;
+    }
 }
 form input[type="text"] ::placeholder{
     color: #FFF;
