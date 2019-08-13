@@ -30,11 +30,8 @@
     }
 }
 
-@media (max-width: 899px){
-
-    .grid-table table{
-        margin: 0 auto;
-    }
+.section-usefull ol {
+    padding: 0;
 }
 
 .section-usefull li {
@@ -42,9 +39,17 @@
     border-radius: 0.3em;
     margin-bottom: 1em;
     padding: 0.5em 1em;
+    list-style: inside upper-roman;
 }
 
 .centred {
     text-align: center;
+}
+
+@media (max-width: 899px){
+
+    .grid-table table{
+        margin: 0 auto;
+    }
 }
 

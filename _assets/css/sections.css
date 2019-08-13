@@ -10,7 +10,8 @@
 }
 
 .section.section-headings{
-    font-size: 1.2em;
+    font-size: 1.5em;
+    
     font-family: Merriweather, serif;
 }
 .section.section-check {
@@ -30,10 +31,19 @@
     text-align: left;
 }
 
+.section.section-check .field input{
+    width: 12em;
+}
+
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(36, 148, 211);
     font-size: 0.7em;
     opacity: 0.5;
+}
+
+.section-call p,
+.section-figure p {
+    font-size: 2em;
 }
 
 

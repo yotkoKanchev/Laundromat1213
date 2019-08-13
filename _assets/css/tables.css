@@ -4,13 +4,9 @@ table {
 
 table, td, th, tr {
     border-width: 1px;
-    border-color: rgb(221, 221, 221);
+    border-color: var(--color-body-default);
     border-style: solid ;
     border-collapse: collapse;
-}
-
-table, tr, td, th{
-    border-color: var(--color-body-default);
 }
 
 td {
@@ -20,7 +16,7 @@ td {
 
 th {
     background: rgb(36, 148, 211);
-    border-bottom-color: #FFF;
+    /* border-bottom-color: #FFF; */
     color: #FFF;
     padding-top: 0.5em;
     padding-bottom: 0.5em;

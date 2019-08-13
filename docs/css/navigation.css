@@ -59,10 +59,11 @@
     }
     .nav-toggle-button .close {
         display: none;
-    }
+    }    
 
     .site-nav {
         display: none;
+        padding-top: 1em;
     }
 
     .site-nav > ul {
@@ -97,10 +98,18 @@
         display: block;
     }
 
+    .site-header {
+        position: relative;
+    }
+
     .nav-toggle-button {
-        position: fixed;
-        top: 2.5em;
-        right: 3em;
+        position: absolute;
+        top: 0.5em;
+        right: 2em;
+    }
+
+    .fa-bars {
+        font-size: 2em;
     }
 
 }

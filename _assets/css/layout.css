@@ -9,6 +9,39 @@
     background: var(--color-body-bgrd);
 }
 
+.site-footer i{
+    font-size: 2em;
+}
+
+.site-main i {
+    font-size: 5em;    
+}
+
+.site-main i:not(:last-child){
+    padding-right: 1em;
+}
+
+.site-main i:first-child{
+    color: rgb(65, 176, 30);
+}
+
+.site-main i:nth-child(2){
+    color: rgb(122, 59, 170);
+}
+
+.site-main i:last-child{
+    color: rgb(65, 176, 30);
+}
+
+.section-call {
+    border: 2px solid var(--color-body-default);
+    border-radius: 0.3em;
+}
+
+.section.section-check .field{
+    display: block;
+}
+
 @media (min-width: 1024px) {
     .site-header {
         display: flex;
@@ -17,6 +50,10 @@
 
     .site-header nav {
         margin-left: auto;
+    }   
+
+    .section.section-check .field{
+        display: inline;
     }
 }
 

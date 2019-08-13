@@ -18,7 +18,7 @@
         grid-column: 1 / span 1;
         grid-row: 1 / span 6;
         width: 32em;
-        height: 22em;
+        height: 21em;
         padding: 0;
         margin: 0;
     }
@@ -56,8 +56,7 @@
     padding-bottom: 0;
 }
 
-.rounded td, tr, th, table {
-    border: none;
+.working-time table {
     padding-left: 0;
 }
 
@@ -83,11 +82,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0.5em;
+    text-align: left;
 }
 
 .field input, textarea {
     margin-bottom: 0.5em;
-    width: 15em;
+    width: 60%;
     margin-right: 0;
 }
 
