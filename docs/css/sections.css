@@ -11,9 +11,10 @@
 
 .section.section-headings{
     font-size: 1.5em;
-    
     font-family: Merriweather, serif;
 }
+
+
 .section.section-check {
     /* background: #FFF; */
     font-size: 1.2em;
@@ -68,6 +69,18 @@
 .section-call p,
 .section-figure p {
     font-size: 2em;
+}
+
+@media (max-width: 1024px) {
+    .section.section-headings{
+        font-size: 1.2em;
+    }
+
+    
+.section-call p,
+.section-figure p {
+    font-size: 1.5em;
+}
 }
 
 

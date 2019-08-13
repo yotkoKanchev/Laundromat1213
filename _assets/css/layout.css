@@ -14,7 +14,7 @@
 }
 
 .site-main i {
-    font-size: 5em;    
+    font-size: 3em;    
 }
 
 .site-main i:not(:last-child){
@@ -54,6 +54,10 @@
 
     .section.section-check .field{
         display: inline;
+    }
+
+    .site-main i {
+        font-size: 5em;    
     }
 }
 
