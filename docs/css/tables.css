@@ -15,40 +15,11 @@ td {
 }
 
 th {
-    background: rgb(36, 148, 211);
-    /* border-bottom-color: #FFF; */
+    background: var(--color-body-default);
     color: #FFF;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
-
-.section.section-prices h4 {
-    text-align: left;
-}
-
-.section-prices p{
-    text-align: left;
-    opacity: 0.7;
-    font-size: 0.7em;
-}
-
-.section-prices thead tr th:first-child,
-.section-prices tbody tr td:first-child {
-    max-width: 44em;
-}
-
-.section-usefull thead tr th:first-child,
-.section-usefull tbody tr td:first-child {
-    max-width: 6em;
-}
-
-.section-usefull img {
-    /* padding-top: 0.3em; */
-    width: 1.5em;
-    height: auto;
-    padding-top: 0.3em;
-}
-
 
 tr:hover{
     background: rgb(36, 148, 211);

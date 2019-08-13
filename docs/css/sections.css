@@ -1,5 +1,5 @@
 .section {
-    padding: 2em;
+    padding: 1em 2em;
     text-align: center;
 }
 
@@ -16,10 +16,9 @@
 
 
 .section.section-check {
-    /* background: #FFF; */
     font-size: 1.2em;
     padding: 2em;
-    background-color: rgb(36, 148, 211);
+    background-color: var(--color-body-default);
     border-bottom-right-radius: 2em;
     border-top-left-radius: 2em;
 }
@@ -32,9 +31,7 @@
     text-align: left;
 }
 
-.section.section-check .field input{
-    width: 12em;
-}
+
 
 ::-webkit-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(36, 148, 211);
@@ -42,11 +39,15 @@
     opacity: 0.5;
 }
 
+
+
 ::-moz-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(36, 148, 211);
     font-size: 0.7em;
     opacity: 0.5;
 }
+
+
 
 :-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(36, 148, 211);
@@ -54,11 +55,15 @@
     opacity: 0.5;
 }
 
+
+
 ::-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(36, 148, 211);
     font-size: 0.7em;
     opacity: 0.5;
 }
+
+
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(36, 148, 211);
@@ -76,11 +81,16 @@
         font-size: 1.2em;
     }
 
-    
-.section-call p,
-.section-figure p {
-    font-size: 1.5em;
+    .section-call p,
+    .section-figure p {
+        font-size: 1.5em;
+    }
 }
+
+@media (min-width: 430px){
+    .section.section-check .field input{
+        width: 12em;
+    }
 }
 
 

@@ -10,23 +10,12 @@
     padding: 0 0.5em;
 }
 
-@media (min-width: 901px){
-    .site-nav li:last-child {
-        padding-right: 0;
-    }
-    
-    .site-nav li:first-child {
-        padding-left: 0;
-    }
-}
-
 .site-nav a{
     font-size: 0.8em;
     display: block;
     padding: 0.5em 1em;
     border-bottom-right-radius: 1em;
     border-top-left-radius: 1em;
-    /* border-radius: 0.3em; */
     background: #EEE;
 }
 
@@ -36,10 +25,11 @@
     color: var(--color-body-bgrd);
 }
 
+/* 
 .site-nav a i.fas:before {
-    /* color: #000; */
+    color: #000;
     margin-right: 0.5em;
-}
+} */
 
 .nav-toggle {
     opacity: 0;
@@ -52,7 +42,16 @@
     margin-left: auto;
 }
 
-/* Phones */
+@media (min-width: 901px){
+    .site-nav li:last-child {
+        padding-right: 0;
+    }
+    
+    .site-nav li:first-child {
+        padding-left: 0;
+    }
+}
+
 @media (max-width: 900px){
     .nav-toggle-button {
         display: block;
@@ -73,13 +72,11 @@
     .site-nav > ul > li {
         width: 50%;
         font-size: 1.5em;
-        font-weight: bold;
         padding: 0.2em;
     }
 
     .site-nav > ul > li a {
         text-align: center;
-        /* padding: 1em; */
     }
 
     .nav-toggle + .site-header {
@@ -111,5 +108,10 @@
     .fa-bars {
         font-size: 2em;
     }
+}
 
+@media (max-width: 350px){
+    .fa-bars {
+        font-size: 1em;
+    }
 }

@@ -1,3 +1,30 @@
+.section-usefull ol {
+    padding: 0;
+}
+
+.section-usefull li {
+    border: 1px solid var(--color-body-default);
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    list-style: inside upper-roman;
+}
+
+.section-usefull .centred {
+    text-align: center;
+}
+
+.section-usefull thead tr th:first-child,
+.section-usefull tbody tr td:first-child {
+    max-width: 6em;
+}
+
+.section-usefull img {
+    width: 1.5em;
+    height: auto;
+    padding-top: 0.3em;
+}
+
 @media (min-width: 900px) {
     .grid-table {
         font-size: 0.8em;
@@ -28,22 +55,6 @@
         grid-column: 19 / span 11;
         grid-row: 21 / span 25;
     }
-}
-
-.section-usefull ol {
-    padding: 0;
-}
-
-.section-usefull li {
-    border: 1px solid var(--color-body-default);
-    border-radius: 0.3em;
-    margin-bottom: 1em;
-    padding: 0.5em 1em;
-    list-style: inside upper-roman;
-}
-
-.centred {
-    text-align: center;
 }
 
 @media (max-width: 899px){

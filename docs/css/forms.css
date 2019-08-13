@@ -14,36 +14,44 @@ form input {
     border-radius: 0.3em;
     padding: 0.5em 1em;
     outline: none;
-    color: rgb(36, 148, 211);
-    border-color: rgb(36, 148, 211);
+    color: var(--color-body-default);
+    border-color: var(--color-body-default);
 }
+
+form input[type="submit"] {
+    font-weight: bold;
+}
+
 ::-webkit-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(36, 148, 211);
     font-size: 0.7em;
     opacity: 0.5;
   }
+
 ::-moz-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(36, 148, 211);
     font-size: 0.7em;
     opacity: 0.5;
   }
+
 :-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(36, 148, 211);
     font-size: 0.7em;
     opacity: 0.5;
   }
+
 ::-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(36, 148, 211);
     font-size: 0.7em;
     opacity: 0.5;
   }
+
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(36, 148, 211);
     font-size: 0.7em;
     opacity: 0.5;
   }
 
-/* form button:hover, */
 form textarea:hover,
 form textarea:focus,
 form input:focus,
@@ -52,29 +60,28 @@ form input:hover {
     color: #FFF;
 }
 
+form input[type="text"] ::-webkit-input-placeholder{
+    color: #FFF;
+}
+
+form input[type="text"] ::-moz-placeholder{
+    color: #FFF;
+}
+
+form input[type="text"] :-ms-input-placeholder{
+    color: #FFF;
+}
+
+form input[type="text"] ::-ms-input-placeholder{
+    color: #FFF;
+}
+
+form input[type="text"] ::placeholder{
+    color: #FFF;
+}
+
 @media (min-width: 900px){
     form input[type="text"] {
         margin-right: 1em;
     }
 }
-form input[type="text"] ::-webkit-input-placeholder{
-    color: #FFF;
-}
-form input[type="text"] ::-moz-placeholder{
-    color: #FFF;
-}
-form input[type="text"] :-ms-input-placeholder{
-    color: #FFF;
-}
-form input[type="text"] ::-ms-input-placeholder{
-    color: #FFF;
-}
-form input[type="text"] ::placeholder{
-    color: #FFF;
-}
-
-/* form button[type="submit"], */
-form input[type="submit"] {
-    font-weight: bold;
-}
-

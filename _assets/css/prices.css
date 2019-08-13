@@ -1,0 +1,14 @@
+.section.section-prices h4 {
+    text-align: left;
+}
+
+.section-prices p{
+    text-align: left;
+    opacity: 0.7;
+    font-size: 0.7em;
+}
+
+.section-prices thead tr th:first-child,
+.section-prices tbody tr td:first-child {
+    max-width: 44em;
+}

@@ -21,3 +21,20 @@
 .site-footer a {
     padding: 0.5em;
 }
+
+.site-footer i{
+    font-size: 2em;
+}
+
+@media (min-width: 500px){
+    .site-footer ul {
+        padding-right: 1em;
+    }
+}
+
+@media (max-width: 400px){
+    .site-footer ul {
+        display: inline-block;
+        padding-right: 1em;
+    }
+}

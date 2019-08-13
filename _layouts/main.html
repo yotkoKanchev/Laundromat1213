@@ -12,27 +12,33 @@
 </head>
 
 <body class="site-body">
+
     <div class="site">
+
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
         <header class="site-header">
-            <!-- {% if page.home == true %}
-            <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-            {% else %}
-            <p class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></p>
-            {% endif %} -->
+           
             <a href="{{ site.baseurl }}/">
+
                 <div class="site-branding">
+
                     <p class="site-title">Обществена Пералня 1213</p>
                     <p class="site-description">Експерти в прането от 2003 година</p>
+
                 </div>
+
             </a>
             
             <label for="nav-toggle" class="nav-toggle-button">
+
                 <span class="open"><i class="fas fa-bars"></i></span>
                 <span class="close">Close</span>
+
             </label>
 
             <nav class="site-nav">
+
                 <ul>
                     {% assign nav = site.pages | sort:"order" %}
                     {% for item in nav %}
@@ -48,30 +54,37 @@
                 </ul>
 
             </nav>
+
         </header>
 
         <main class="site-main">
+
             {% if page.title %}
             <h1>{{page.title}}</h1>
             {% endif %}
 
             {{content}}
-        </main>
 
-        <aside class="site-sidebar">
+        </main>
 
         </aside>
 
         <footer class="site-footer">
-            <!-- <h6>{{site.title}}</h6> -->
+
             <p>All rights Reserved 2003-2019 &copy; {{ site.title }}</p>
+
             <ul class="contacts">
+
                 <li><a href=""><i class="far fa-envelope"></i></a></li>
                 <li><a href=""><i class="fab fa-facebook"></i></a></li>
                 <li><a href=""><i class="fab fa-instagram"></i></a></li>
+
             </ul>
+
         </footer>
+
     </div>
+    
 </body>
 
 </html>

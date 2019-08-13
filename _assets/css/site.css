@@ -1,6 +1,10 @@
 @import url('variables.css');
 
+@import url('transitions.css');
+
 @import url('typography.css');
+
+@import url('images.css');
 
 @import url('layout.css');
 
@@ -13,17 +17,17 @@
 
 @import url('forms.css');
 
-@import url('transitions.css');
-
 @import url('tables.css');
 
 @import url('gallery.css');
 
 @import url('usefull.css');
 
-@import url('images.css');
-
 @import url('contacts.css');
 
 @import url('figure.css');
+
+@import url('prices.css');
+
+
 
