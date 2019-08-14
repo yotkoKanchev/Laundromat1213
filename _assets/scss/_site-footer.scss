@@ -26,17 +26,19 @@
         }
     }
     
-    @media (min-width: 500px){
-        ul {
-            padding-right: 1em;
-        }
+   
+}
+
+@media (min-width: 500px){
+    .site-footer ul {
+        padding-right: 1em;
     }
-    
-    @media (max-width: 400px){
-        ul {
-            display: inline-block;
-            padding-right: 1em;
-        }
+}
+
+@media (max-width: 400px){
+    .site-footer ul {
+        display: inline-block;
+        padding-right: 1em;
     }
 }
 
