@@ -1,7 +1,7 @@
 .site-header {
     border-bottom: 1px solid var(--color-border-default, #000);
     margin-bottom: calc( var(--spacing-layout-element, 2em) / 2)    ;
-    padding-bottom: calc( var(--spacing-layout-element, 2em) / 4);
+    padding-bottom: calc( var(--spacing-layout-element, 2em) / 2);
     align-items: center;
 }
 

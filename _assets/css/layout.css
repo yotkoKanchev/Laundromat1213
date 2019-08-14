@@ -21,17 +21,17 @@
     padding-right: 0.1em;
 }
 
-/* .site-main i:first-child{
+.site-main i:first-child:hover{
     color: rgb(65, 176, 30);
 }
 
-.site-main i:nth-child(2){
+.site-main i:nth-child(2):hover{
     color: rgb(122, 59, 170);
 }
 
-.site-main i:last-child{
+.site-main i:last-child:hover{
     color: rgb(65, 176, 30);
-} */
+}
 
 .section-call {
     border: 2px solid var(--color-body-default);
