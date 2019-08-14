@@ -14,7 +14,6 @@
     font-family: Merriweather, serif;
 }
 
-
 .section.section-check {
     font-size: 1.2em;
     padding: 1em;
@@ -31,8 +30,6 @@
     text-align: left;
 }
 
-
-
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(36, 148, 211);
     font-size: 0.7em;
@@ -44,6 +41,12 @@
     font-size: 2em;
 }
 
+.section.section-check .field input{
+    margin-right: 1em;
+    margin-top: 1em;
+    width: 12em;
+}
+
 @media (max-width: 1024px) {
     .section.section-headings{
         font-size: 1.2em;
@@ -51,13 +54,13 @@
 
     .section-call p,
     .section-figure p {
-        font-size: 1.5em;
+        font-size: 1.5em;    
     }
 }
 
-@media (min-width: 430px){
+@media (max-width: 430px){
     .section.section-check .field input{
-        width: 12em;
+        width: 9em;
     }
 }
 

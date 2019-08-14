@@ -1,7 +1,3 @@
-.figure {
-    padding-left: 0;
-}
-
 .section-figure {
     border: 2px solid var(--color-body-default);
     border-radius: 0.3em;
@@ -20,6 +16,7 @@
 ul.figure {
     border-left: 0.3em dotted var(--color-body-default);
     margin-bottom: 2em;
+    padding-left: 0;
     padding-bottom: 0;
 }
 

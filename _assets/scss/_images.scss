@@ -1,0 +1,26 @@
+.media {
+    text-align: center;
+
+    img {
+        width: 20em;
+        height: auto;
+        /* margin-left: 0 auto; */
+    }
+    
+    @media (min-width: 700px){
+        & {
+            float: right;
+        }   
+        
+        .cleaner {
+            clear: both;
+        }
+    }
+    
+    @media (max-width: 400px){
+        & {
+            display: none;
+        }
+    }
+
+}
