@@ -1,5 +1,5 @@
 .section {
-    padding: 1em 2em 2em 2em;
+    padding: 1em 0 2em 0;
     text-align: center;
 }
 
@@ -17,7 +17,7 @@
 
 .section.section-check {
     font-size: 1.2em;
-    padding: 2em;
+    padding: 1em;
     background-color: var(--color-body-default);
     border-bottom-right-radius: 2em;
     border-top-left-radius: 2em;
