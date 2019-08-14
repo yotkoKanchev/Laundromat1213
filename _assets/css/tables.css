@@ -22,6 +22,6 @@ th {
 }
 
 tr:hover{
-    background: rgb(36, 148, 211);
-    color: #FFF;
+    background: rgb(141, 216, 248);
+    /* color: #FFF; */
 }

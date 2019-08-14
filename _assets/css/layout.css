@@ -10,11 +10,12 @@
 }
 
 .content, .services {
-    padding: 1em 2em;
+    padding: 1em 0;
 }
 
 .site-main i {
     font-size: 2em;    
+    color: var(--color-body-default );
 }
 
 .site-main i:not(:last-child){

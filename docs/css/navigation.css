@@ -107,10 +107,11 @@
 
     .fa-bars {
         font-size: 2em;
+
     }
 }
 
-@media (max-width: 350px){
+@media (max-width: 340px){
     .fa-bars {
         font-size: 1em;
     }

@@ -1,7 +1,11 @@
+.media {
+    text-align: center;
+}
+
 .media img {
     width: 20em;
     height: auto;
-    margin-left: 2em;
+    /* margin-left: 0 auto; */
 }
 
 

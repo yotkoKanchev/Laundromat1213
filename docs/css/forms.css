@@ -20,34 +20,37 @@ form input {
 
 form input[type="submit"] {
     font-weight: bold;
+    background: orange;
+    color:#FFF;
+    border: 1px solid #FFF;
 }
 
 ::-webkit-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgb(36, 148, 211);
+    color: #999;
     font-size: 0.7em;
     opacity: 0.5;
   }
 
 ::-moz-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgb(36, 148, 211);
+    color: #999;
     font-size: 0.7em;
     opacity: 0.5;
   }
 
 :-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgb(36, 148, 211);
+    color: #999;
     font-size: 0.7em;
     opacity: 0.5;
   }
 
 ::-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgb(36, 148, 211);
+    color: #999;
     font-size: 0.7em;
     opacity: 0.5;
   }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgb(36, 148, 211);
+    color: #999;
     font-size: 0.7em;
     opacity: 0.5;
   }
@@ -58,6 +61,12 @@ form input:focus,
 form input:hover {
     background: rgb(141, 216, 248);
     color: #FFF;
+}
+
+form input[type="submit"]:hover {
+    background: #FFF;
+    color:var(--color-body-default);
+    border-color: orange;
 }
 
 form input[type="text"] ::-webkit-input-placeholder{
