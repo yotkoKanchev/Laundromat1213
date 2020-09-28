@@ -6,4 +6,3 @@ https://yotkokanchev.github.io/Laundromat1213/
 Using only HTML5, CSS, Jekyll, Gulp
 
 Simple and using only front-end technics app for public Laundromat. Added new services as laundry pick up and delivery, check status etc.
-Not the best UI, but good as first try :)
