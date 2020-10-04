@@ -1,7 +1,7 @@
 # Laundromat1213
 https://yotkokanchev.github.io/Laundromat1213/
 
-## My first web-app as final project of CSS Advance course.
+## My first web-app as final project of CSS Advance course. Re-build of an existing website.
 
 Using only HTML5, CSS, Jekyll, Gulp
 
