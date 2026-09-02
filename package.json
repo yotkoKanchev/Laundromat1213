@@ -20,7 +20,7 @@
     "browser-sync": "^2.26.3",
     "child_process": "^1.0.2",
     "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
+    "gulp-autoprefixer": "^10.0.0",
     "gulp-exec": "^3.0.2",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.12.0"
